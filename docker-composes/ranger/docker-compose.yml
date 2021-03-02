@@ -15,7 +15,7 @@ services:
     expose:
       - "3306"
   ranger-admin:
-    image: kadensungbincho/ranger-admin:2.1.0
+    image: sidcardoso/ranger-admin:2.1.0
     container_name: ranger-admin
     hostname: ranger
     depends_on:
@@ -28,7 +28,7 @@ services:
       - "6080:6080"
     restart: always
   ranger-usersync:
-    image: kadensungbincho/ranger-usersync:2.1.0
+    image: sidcardoso/ranger-usersync:2.1.0
     container_name: ranger-usersync
     hostname: usersync
     depends_on:
@@ -39,7 +39,7 @@ services:
     command: ["./bootstrap.sh"]
     restart: always
   #  ranger-usersync-ldap:
-  #    image: kadensungbincho/ranger-usersync:2.1.0
+  #    image: sidcardoso/ranger-usersync:2.1.0
   #    container_name: ranger2.0.0-usersync-ldap
   #    hostname: usersync-ldap
   #    depends_on:
