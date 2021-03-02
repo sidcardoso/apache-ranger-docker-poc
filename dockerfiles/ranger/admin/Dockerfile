@@ -1,4 +1,4 @@
-FROM kadensungbincho/ranger-base:2.1.0
+FROM sidcardoso/ranger-base:2.1.0
 
 ENV RANGER_ADMIN_HOME /opt/ranger_admin
 
