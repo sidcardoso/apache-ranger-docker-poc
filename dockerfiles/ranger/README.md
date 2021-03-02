@@ -1,3 +1,5 @@
 # Based on
-- https://hub.docker.com/r/siweiwang/apache_ranger_base/dockerfile
-- https://hub.docker.com/r/siweiwang/apache_ranger_docker/dockerfile
+
+- https://hub.docker.com/r/sidcardoso/ranger-base
+- https://hub.docker.com/r/sidcardoso/ranger-usersync
+- https://hub.docker.com/r/sidcardoso/ranger-admin
